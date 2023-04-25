@@ -56,7 +56,7 @@ begin p_decoder_2: process(clk)
 begin
 
 if rising_edge(clk) then
-     -- ve p?ipad? resetování <= vynulování
+     -- ve pripade resetování <= vynulování
         if (rst = '1') then 
             enbl <= '0';
             char <= '0';

@@ -48,19 +48,19 @@ architecture Behavioral of decoder_1 is
  begin
 
  if rising_edge(clk) then
-     -- ve p?ipad? resetování <= vynulování
+     -- ve pripade resetování <= vynulování
      if (rst = '1') then 
         enbl <= '0';
         dash<= '0';
         dot <= '0';
         
-     -- kontrola je-li to te?ka
+     -- kontrola je-li to tecka
      elsif (fall = '1') then
         if(time_dash <= "0001" and bin_dot >= "0001") then 
            dash <= '1';
            dot <= '1';
          
-     -- když ne, je to ?arka
+     -- když ne, je to carka
         elsif(time_dash > "0001") then 
            dash <= '1';
            dot <= '1';
