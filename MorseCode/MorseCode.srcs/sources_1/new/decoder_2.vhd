@@ -38,8 +38,6 @@ entity decoder_2 is
            rise : in STD_LOGIC;
            fall : in STD_LOGIC;
            enbl : out STD_LOGIC;
-           dash : out STD_LOGIC;
-           dot : out STD_LOGIC;
            reset : out STD_LOGIC;
            char : out STD_LOGIC;
            intgr : out STD_LOGIC;
@@ -63,8 +61,8 @@ if rising_edge(clk) then
             intgr <= '0';
         
      -- kontrola je-li to pismeno
-        elsif (fall = '1') then
-             if(time_dash >= "0001" and bin_dot < "0011") then 
+        elsif (rise = '1') then
+             if(time_dash >= "0001" and time_dash <= "0011") then 
                  enbl <= '1';
                  char <= '1';
          
@@ -77,7 +75,7 @@ if rising_edge(clk) then
         elsif (time_dot = "001") then
            enbl <= '1';
            intgr <= '1';
-           char <= '1';
+           reset <= '1';
          
      
      -- znovu vynulovani

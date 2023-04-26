@@ -30,10 +30,10 @@ entity decoder_1 is
            rst : in STD_LOGIC;
            rise : in STD_LOGIC;
            fall : in STD_LOGIC;
-           time_dot : in STD_LOGIC_VECTOR (3 downto 0);
-           time_dash : in STD_LOGIC_VECTOR (4 downto 0);
-           bin_dot : in STD_LOGIC_VECTOR (4 downto 0);
-           bin_dash : in STD_LOGIC_VECTOR (4 downto 0);
+           time_dot : in STD_LOGIC_VECTOR (3 - 1 downto 0);
+           time_dash : in STD_LOGIC_VECTOR (4 - 1 downto 0);
+           bin_dot : in STD_LOGIC_VECTOR (4 - 1 downto 0);
+           bin_dash : in STD_LOGIC_VECTOR (4 - 1 downto 0);
            enbl : out STD_LOGIC;
            dash : out STD_LOGIC;
            dot : out STD_LOGIC);
@@ -50,20 +50,20 @@ architecture Behavioral of decoder_1 is
  if rising_edge(clk) then
      -- ve pripade resetování <= vynulování
      if (rst = '1') then 
-        enbl <= '0';
-        dash<= '0';
         dot <= '0';
+        dash<= '0';
+        enbl <= '0';
         
      -- kontrola je-li to tecka
      elsif (fall = '1') then
         if(time_dash <= "0001" and bin_dot >= "0001") then 
-           dash <= '1';
            dot <= '1';
+           enbl <= '1';
          
      -- když ne, je to carka
         elsif(time_dash > "0001") then 
            dash <= '1';
-           dot <= '1';
+           enbl <= '1';
         end if;
      
      -- znovu vynulovani

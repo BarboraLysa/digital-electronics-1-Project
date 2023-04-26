@@ -94,7 +94,7 @@ begin
         port map(
             clk            => CLK100MHZ,
             rst            => BTNC,
-            time_dot       => s_seconds_h,
+            time_dot      => s_seconds_h,
             time_dash      => s_seconds_l,
             bin_dot        => s_hundredths_h,
             bin_dash       => s_hundredths_l,
@@ -121,16 +121,16 @@ begin
         ); 
      morse_to8bit : entity work.morse_to8bit
         port map(
-            clk            => CLK100MHZ,
-            rst       => BTNC,
-            rdy_o       => s_rdy,
-            dot_i  => s_dot,
-            dash_i => s_dash,
-            en1_i   => s_en,
-            char_i => s_char,
-            word_i => s_word,
-            en2_i   => s_en2,
-            data_o  => s_data_to_memory
+            clk     => CLK100MHZ,
+            rst     => BTNC,
+            ready   => s_rdy,
+            dot     => s_dot,
+            dash    => s_dash,
+            enab1e1 => s_en,
+            char    => s_char,
+            word    => s_word,
+            enable2 => s_en2,
+            data    => s_data_to_memory
         ); 
 
      hex_7seg : entity work.hex_7seg

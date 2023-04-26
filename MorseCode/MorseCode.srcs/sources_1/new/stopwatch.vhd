@@ -63,7 +63,7 @@ begin
     -- every 10 ms (100 Hz).
 
     -- JUST FOR SHORTER/FASTER SIMULATION
-    s_en <= '1';
+    --s_en <= '1';
     clk_en0 : entity work.clock_enable
         generic map(
             g_MAX =>  100000      
@@ -122,7 +122,7 @@ begin
                     cnt0 <= "0000";
                     cnt1 <= "0000";
                     cnt2 <= "0000";
-                    cnt3 <= "0000"; 
+                    cnt3 <= "000"; 
             end if;
         end if;
     end process p_stopwatch_cnt;
