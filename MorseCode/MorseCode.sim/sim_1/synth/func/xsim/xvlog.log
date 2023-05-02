@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.sim/sim_1/synth/func/xsim/tb_top_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_enable
+INFO: [VRFC 10-311] analyzing module clock_enable_0
+INFO: [VRFC 10-311] analyzing module d_ff_rst
+INFO: [VRFC 10-311] analyzing module d_ff_rst_1
+INFO: [VRFC 10-311] analyzing module decoder_1
+INFO: [VRFC 10-311] analyzing module decoder_2
+INFO: [VRFC 10-311] analyzing module edge_detect
+INFO: [VRFC 10-311] analyzing module hex_7seg
+INFO: [VRFC 10-311] analyzing module morse_to8bit
+INFO: [VRFC 10-311] analyzing module stopwatch
+INFO: [VRFC 10-311] analyzing module stopwatch2
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl

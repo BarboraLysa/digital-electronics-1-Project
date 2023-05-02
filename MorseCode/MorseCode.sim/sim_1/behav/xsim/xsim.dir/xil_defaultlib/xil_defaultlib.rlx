@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sim_1/new/tb_decoder2.vhd,1683055957,vhdl,,,,tb_decoder2,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/clock_enable.vhd,1683050452,vhdl,C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/stopwatch2.vhd,,,clock_enable,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/d_ff_rst.vhd,1683050452,vhdl,C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/edge_detect.vhd,,,d_ff_rst,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/decoder_1.vhd,1683050452,vhdl,C:/Users/Barbora/Downloads/tb_decoder-1.vhd,,,decoder_1,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/decoder_2.vhd,1683050452,vhdl,C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sim_1/new/tb_decoder2.vhd,,,decoder_2,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/edge_detect.vhd,1683050452,vhdl,C:/Users/Barbora/Downloads/tb_stopwatch2.vhd,,,edge_detect,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/stopwatch.vhd,1683050452,vhdl,C:/Users/Barbora/Downloads/tb_stopwatch1.vhd,,,stopwatch,,,,,,,,
+C:/Users/Barbora/Desktop/de1/digital-electronics-1-Project/MorseCode/MorseCode.srcs/sources_1/new/stopwatch2.vhd,1683050452,vhdl,C:/Users/Barbora/Downloads/tb_stopwatch2.vhd,,,stopwatch2,,,,,,,,
+C:/Users/Barbora/Downloads/tb_decoder-1.vhd,1683056226,vhdl,,,,tb_decoder1,,,,,,,,
+C:/Users/Barbora/Downloads/tb_edge_detect.vhd,1683050576,vhdl,,,,tb_edge_detect,,,,,,,,
+C:/Users/Barbora/Downloads/tb_stopwatch1.vhd,1683058483,vhdl,,,,tb_stopwatch1,,,,,,,,
+C:/Users/Barbora/Downloads/tb_stopwatch2.vhd,1683058513,vhdl,,,,tb_stopwatch2,,,,,,,,
+C:/Users/Barbora/Downloads/tb_top1.vhd,1683056236,vhdl,,,,tb_top,,,,,,,,

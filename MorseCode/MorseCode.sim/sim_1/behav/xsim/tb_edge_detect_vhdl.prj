@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MorseCode.srcs/sources_1/new/d_ff_rst.vhd" \
+"../../../../MorseCode.srcs/sources_1/new/edge_detect.vhd" \
+"../../../../../../../../Downloads/tb_edge_detect.vhd" \
+
+# Do not sort compile order
+nosort
